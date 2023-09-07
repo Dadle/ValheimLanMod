@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\Valheim\valheim_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\Valheim\valheim_Data\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="assembly_valheim">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\Valheim\valheim_Data\Managed\assembly_valheim.dll</HintPath>
+		</Reference>
+		<Reference Include="BepInEx">
+			<HintPath>C:\Users\Lanze\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Valheim\profiles\Development\BepInEx\core\BepInEx.dll</HintPath>
+		</Reference>
+		<Reference Include="Jotunn">
+			<HintPath>C:\Users\Lanze\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Valheim\profiles\Development\BepInEx\plugins\ValheimModding-Jotunn\Jotunn.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

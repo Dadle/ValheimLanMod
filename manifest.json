@@ -1,0 +1,10 @@
+{
+  "name": "DadlesLanMod",
+  "version_number": "0.0.1",
+  "website_url": "https://github.com/Dadle/ValheimLanMod",
+  "description": "My first mod for use at a privvate LAN party",
+  "dependencies": [
+    "BepInExPack",
+    "JotunnLib"
+  ]
+}
